@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchTopUsers } from '../services/apiService';  // ✅ Import API function
+import { fetchTopUsers } from '../services/apiService'; 
 
 const TopUsers = () => {
   const [users, setUsers] = useState([]);
